@@ -1,0 +1,70 @@
+---
+title: "Python: Variáveis e tipos de dados"
+weight: 1
+subtitle: ""
+excerpt: "Este é o primeiro post de uma série sobre a linguagem Python. O objetivo desta série é registrar o meu aprendizado."
+date: 2022-04-21
+draft: false
+---
+
+Breve Introdução
+
+---
+
+
+```{r, inlcude = FALSE}
+library(reticulate)
+```
+
+## `Variáveis`
+
+
+```{python}
+name = "python" 
+name
+```
+
+## `Tipos de dados`
+
+### `Números inteiros`
+
+```{python}
+inteiro = 2 + 3
+print(inteiro)
+print(type(inteiro))
+```
+
+
+### `Números de ponto flutuantes`
+
+```{python}
+flutuante = 0.1 + 0.1
+print(flutuante)
+print(type(flutuante))
+```
+
+
+### `Variáveis booleanas`
+
+```{python}
+booleanas = True
+print(type(booleanas))
+```
+
+
+## `Estrutura de dados`
+
+### `Strings`
+
+### `Lista`
+
+### `Tupla`
+
+### `Dicionário`
+
+
+
+
+
+
+

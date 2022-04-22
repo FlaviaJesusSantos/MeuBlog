@@ -1,9 +1,9 @@
 ---
 title: "Flavia de Jesus"
 subtitle: "Meu Blog Pessoal"
-description: "Este blog foi feito com o objetivo de me obrigar a melhorar minha escrita e me incentivar a estudar alguns assuntos que tenho preguiça."
+description: ""
 images:
-  - img/revoir.jpg
+  - img/img3.jpg
 image_left: true
 text_align_left: false
 show_social_links: true # specify social accounts in site config

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on INÍCIO</title>
+    <link>https://flaviajesussantos.github.io/MeuBlog/tags/python/</link>
+    <description>Recent content in Python on INÍCIO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 21 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flaviajesussantos.github.io/MeuBlog/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python: Variáveis e tipos de dados</title>
+      <link>https://flaviajesussantos.github.io/MeuBlog/blog/python-serie/01-python/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://flaviajesussantos.github.io/MeuBlog/blog/python-serie/01-python/</guid>
+      <description>Breve Introdução
+ library(reticulate) ## Warning: package &amp;#39;reticulate&amp;#39; was built under R version 4.1.3  Variáveis     name = &amp;#34;python&amp;#34; name ## &amp;#39;python&amp;#39;  Tipos de dados     Números inteiros     inteiro = 2 + 3 print(inteiro) ## 5 print(type(inteiro)) ## &amp;lt;class &amp;#39;int&amp;#39;&amp;gt;  Números de ponto flutuantes     flutuante = 0.1 + 0.1 print(flutuante) ## 0.2 print(type(flutuante)) ## &amp;lt;class &amp;#39;float&amp;#39;&amp;gt;  Variáveis booleanas     booleanas = True print(type(booleanas)) ## &amp;lt;class &amp;#39;bool&amp;#39;&amp;gt;  Estrutura de dados     Strings     Lista     Tupla     Dicionário     </description>
+    </item>
+    
+    <item>
+      <title>Aprendendo Python</title>
+      <link>https://flaviajesussantos.github.io/MeuBlog/blog/python-serie/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://flaviajesussantos.github.io/MeuBlog/blog/python-serie/</guid>
+      <description>** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.**</description>
+    </item>
+    
+  </channel>
+</rss>

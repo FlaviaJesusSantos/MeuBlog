@@ -2,163 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/collection/day02/01-netlify/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/python-serie/01-python/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/spoonful-series/01-spoonful/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/series/aprendendo-shiny/</loc>
+    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/collection/day01/01-github/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/collection/prework/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/collection/day01/</loc>
-    <lastmod>2021-01-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/collection/day01/02-postcards/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/spoonful-series/02-spoonful/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/collection/day02/02-blogdown/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/collection/day02/</loc>
-    <lastmod>2021-01-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/spoonful-series/03-spoonful/</loc>
-    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/collection/day01/03-distill/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/collection/day02/03-blogdown/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/shiny-serie/</loc>
+    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/blog/</loc>
-    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/</loc>
-    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/</loc>
-    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/social/</loc>
-    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/theme-features/</loc>
-    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/tags/style/</loc>
-    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/color-themes/</loc>
-    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/fonts/</loc>
-    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/tags/</loc>
-    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/collection/</loc>
-    <lastmod>2021-01-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/evergreen/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/evergreen/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/talk/campfire/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/talk/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/workshop/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/series/a-spoonful-of-hugo/</loc>
-    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/spoonful-series/</loc>
-    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/tags/hugo-site/</loc>
-    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/r/</loc>
-    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/shiny-serie/2022-04-22-iniciando-no-shiny/</loc>
+    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/series/</loc>
-    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/seedling/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/series/aprendendo-python/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/talk/second-seedling/</loc>
-    <lastmod>2021-01-01T14:15:59-06:00</lastmod>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/python-serie/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/meetup/</loc>
-    <lastmod>2021-01-01T14:15:59-06:00</lastmod>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/rmarkdown/</loc>
-    <lastmod>2020-12-30T00:00:00+00:00</lastmod>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/tags/python/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/2020-12-01-r-rmarkdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/python/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/tags/plot/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/tags/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/tags/r-markdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/2022-04-19-criando-um-blog-com-blogdown/</loc>
+    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/tags/regression/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/r/</loc>
+    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/talk/seedling/</loc>
-    <lastmod>2020-01-13T14:15:59-06:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/project/</loc>
-    <lastmod>2019-07-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/package/</loc>
-    <lastmod>2019-07-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/project/giraffes/</loc>
-    <lastmod>2019-07-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/css-grid-scaffold/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/project/penguins/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/project/bakeoff/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/built-in-contact-form/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/tutorial/</loc>
+    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/contact/</loc>
-    <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/form/</loc>
-    <lastmod>2019-02-25T13:38:41-06:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/elements/</loc>
-    <lastmod>2019-02-18T12:27:33-06:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/about/</loc>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/contributors/</loc>
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/license/</loc>
+  </url><url>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/project/</loc>
+  </url><url>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/tags/r/</loc>
+  </url><url>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/about/</loc>
   </url>
 </urlset>

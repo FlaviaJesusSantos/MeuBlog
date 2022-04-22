@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on INÍCIO</title>
+    <link>https://flaviajesussantos.github.io/MeuBlog/categories/tutorial/</link>
+    <description>Recent content in Tutorial on INÍCIO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flaviajesussantos.github.io/MeuBlog/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Criando um blog com blogdown</title>
+      <link>https://flaviajesussantos.github.io/MeuBlog/blog/2022-04-19-criando-um-blog-com-blogdown/</link>
+      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://flaviajesussantos.github.io/MeuBlog/blog/2022-04-19-criando-um-blog-com-blogdown/</guid>
+      <description>Existem algumas formas de criar sites utilizando o R, nesse primeiro post eu criei um tutorial construindo um blog utilizando o pacote blogdown.
+install.packages(&amp;#34;blogdown&amp;#34;) blogdown::install_hugo() blogdown::new_site(&amp;#34;pasta&amp;#34;, theme = &amp;#34;usuario/repositorio&amp;#34;)  Temas: HUGO.  blogdown::serve_site() </description>
+    </item>
+    
+  </channel>
+</rss>
