@@ -5,7 +5,7 @@ title = "INÍCIO"
 author = "Flavia de Jesus"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
-disqusShortname = "" # see params.utterances to use utterances instead of Disqus
+disqusShortname = "Flavia" # see params.utterances to use utterances instead of Disqus
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;" # ↩
 # set deliberately low for testing choose your preffered number based on the blog layout you've chosen
@@ -72,7 +72,7 @@ publishDir = "docs/"
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
     use_utterances = true
-    repo_name = ""
+    repo_name = "FlaviaJesusSantos/MeuBlog"
     issue_term = "pathname" # url, pathname, or title
     theme = "boxy-light"
     label = "comments :crystal_ball:"
