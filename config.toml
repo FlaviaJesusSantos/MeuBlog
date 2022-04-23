@@ -129,7 +129,7 @@ publishDir = "docs/"
     url = "/license/"
     weight = 1
   [[menu.footer]]
-    name = "Contato"
+    name = "Contate-me"
     title = "Contact form"
     url = "/contact/"
     weight = 2
