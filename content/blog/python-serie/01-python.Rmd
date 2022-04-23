@@ -1,0 +1,10 @@
+---
+title: Iniciando no Python
+weight: 1
+excerpt: ""
+author: ''
+date: '2022-04-22'
+slug: []
+categories: []
+tags: []
+---
