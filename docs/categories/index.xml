@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on INÍCIO</title>
+    <title>Categories on PÁGINA INICIAL</title>
     <link>https://flaviajesussantos.github.io/MeuBlog/categories/</link>
-    <description>Recent content in Categories on INÍCIO</description>
+    <description>Recent content in Categories on PÁGINA INICIAL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flaviajesussantos.github.io/MeuBlog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flaviajesussantos.github.io/MeuBlog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>https://flaviajesussantos.github.io/MeuBlog/categories/python/</link>
+      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://flaviajesussantos.github.io/MeuBlog/categories/python/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>R</title>
       <link>https://flaviajesussantos.github.io/MeuBlog/categories/r/</link>
@@ -22,15 +31,6 @@
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://flaviajesussantos.github.io/MeuBlog/categories/tutorial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://flaviajesussantos.github.io/MeuBlog/categories/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://flaviajesussantos.github.io/MeuBlog/categories/python/</guid>
       <description></description>
     </item>
     

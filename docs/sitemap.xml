@@ -14,14 +14,17 @@
     <loc>https://flaviajesussantos.github.io/MeuBlog/blog/</loc>
     <lastmod>2022-04-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/</loc>
+    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/</loc>
+    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/python/</loc>
     <lastmod>2022-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/series/</loc>
     <lastmod>2022-04-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/</loc>
-    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/blog/2022-04-19-criando-um-blog-com-blogdown/</loc>
     <lastmod>2022-04-19T00:00:00+00:00</lastmod>
@@ -41,8 +44,6 @@
     <loc>https://flaviajesussantos.github.io/MeuBlog/project/</loc>
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/tags/python/</loc>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/python/</loc>
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/about/</loc>
   </url><url>
