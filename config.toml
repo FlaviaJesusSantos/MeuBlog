@@ -110,13 +110,17 @@ publishDir = "docs/"
     name = "Sobre"
     title = "About Blogophonic"
     url = "/about/"
-    weight = 2
+    weight = 3
   [[menu.header]]
     name = "Blog"
     title = "Blog"
     url = "/blog/"
     weight = 1
-  
+  [[menu.header]]
+    name = "Projetos"
+    title = "Projetos"
+    url = "/project/"
+    weight = 2
     
   # Configure footer  
   [[menu.footer]]
