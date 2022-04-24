@@ -1,5 +1,5 @@
 ---
-title: Iniciando no Python
+title: Python 01
 weight: 1
 excerpt: ""
 author: ''
@@ -12,3 +12,7 @@ tags: []
 
 
 
+
+---
+
+Em breve.

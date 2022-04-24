@@ -6,7 +6,7 @@
     <label for="email-address">Email:</label>
     <input type="email" name="_replyto" id="email-address" placeholder="seu@email.aqui" required>
     <label for="message">Mensagem:</label>
-    <textarea rows="6" name="message" id="message" placeholder="Dúvidas? Sugestões? Envie-me uma messagem!" required></textarea>
+    <textarea rows="6" name="message" id="message" placeholder="Dúvidas? Sugestões? Envie-me uma mensagem!" required></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="{{ .Params.Name | title }} Submission" />
   </fieldset>
   <input type="submit" value="{{ if .Params.submit_button_label }}{{ .Params.submit_button_label }}{{ end }}">

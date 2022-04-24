@@ -1,16 +1,16 @@
 ---
-title: Criando um blog com blogdown
+title: Criando um blog com blogdown (em construção)
 author: 
 date: '2022-04-19'
 slug: []
-excerpt: "Esse primeiro post é um tutorial de como se faz um blog utilizando o pacote blogdown."
+excerpt: "Este primeiro post é um tutorial de como se faz um blog utilizando o pacote blogdown."
 categories:
   - R
   - Tutorial
 layout: single # single or single-sidebar
 ---
 
-Existem algumas formas de criar sites utilizando o R, nesse primeiro post eu criei um tutorial construindo um blog utilizando o pacote `blogdown`. 
+Existem algumas formas de criar sites utilizando o R, neste primeiro post eu criei um tutorial construindo um blog utilizando o pacote `blogdown`. 
 
 
 ```{r, eval=FALSE}
@@ -31,3 +31,4 @@ blogdown::new_site("pasta", theme = "usuario/repositorio")
 blogdown::serve_site()
 ```
 
+Continua..

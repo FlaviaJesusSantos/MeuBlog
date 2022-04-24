@@ -5,7 +5,7 @@ title = "PÁGINA INICIAL"
 author = "Flavia de Jesus"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
-disqusShortname = "Flavia" # see params.utterances to use utterances instead of Disqus
+disqusShortname = "" # see params.utterances to use utterances instead of Disqus
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;" # ↩
 # set deliberately low for testing choose your preffered number based on the blog layout you've chosen
