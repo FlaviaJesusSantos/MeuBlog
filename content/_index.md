@@ -3,7 +3,7 @@ title: "Flavia de Jesus"
 subtitle: "Meu Blog Pessoal"
 description: ""
 images:
-  - img/img3.jpg
+  - img/img4.jpg
 image_left: true
 text_align_left: false
 show_social_links: true # specify social accounts in site config

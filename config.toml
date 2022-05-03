@@ -1,7 +1,7 @@
 baseURL = "https://flaviajesussantos.github.io/MeuBlog/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "PÁGINA INICIAL"
+title = "Flavia de Jesus"
 author = "Flavia de Jesus"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
@@ -32,7 +32,7 @@ publishDir = "docs/"
   orgName = "Flavia de Jesus"
   orgLocal = ""
   description = ""
-  favicon = "/img/favicon.ico"
+  favicon = "/img/img3.jpg"
   logo = ""
   mainSections = ["blog", "project"]
   navallcaps = true
