@@ -2,40 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/python-serie/2022-04-23-python/</loc>
-    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/series/aprendendo-python/</loc>
-    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/python-serie/</loc>
-    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/blog/</loc>
-    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/categories/</loc>
-    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/</loc>
-    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/python/</loc>
-    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/series/</loc>
-    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/2022-04-19-criando-um-blog-com-blogdown/</loc>
-    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/r/</loc>
-    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/tutorial/</loc>
-    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/contact/</loc>
+  </url><url>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/</loc>
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/form/</loc>
   </url><url>
@@ -43,7 +16,7 @@
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/project/</loc>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/tags/python/</loc>
+    <loc>https://flaviajesussantos.github.io/MeuBlog/series/</loc>
   </url><url>
     <loc>https://flaviajesussantos.github.io/MeuBlog/about/</loc>
   </url><url>

@@ -5,27 +5,7 @@
     <link>https://flaviajesussantos.github.io/MeuBlog/</link>
     <description>Recent content on Flavia de Jesus</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flaviajesussantos.github.io/MeuBlog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Python 01</title>
-      <link>https://flaviajesussantos.github.io/MeuBlog/blog/python-serie/2022-04-23-python/</link>
-      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://flaviajesussantos.github.io/MeuBlog/blog/python-serie/2022-04-23-python/</guid>
-      <description>Em breve.</description>
-    </item>
-    
-    <item>
-      <title>Criando um blog com blogdown (em construção)</title>
-      <link>https://flaviajesussantos.github.io/MeuBlog/blog/2022-04-19-criando-um-blog-com-blogdown/</link>
-      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://flaviajesussantos.github.io/MeuBlog/blog/2022-04-19-criando-um-blog-com-blogdown/</guid>
-      <description>Existem algumas formas de criar sites utilizando o R, neste primeiro post eu criei um tutorial construindo um blog utilizando o pacote blogdown.
-install.packages(&amp;#34;blogdown&amp;#34;) blogdown::install_hugo() blogdown::new_site(&amp;#34;pasta&amp;#34;, theme = &amp;#34;usuario/repositorio&amp;#34;)  Temas: HUGO.  blogdown::serve_site() Continua..</description>
-    </item>
-    
+    <language>en</language><atom:link href="https://flaviajesussantos.github.io/MeuBlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contate-me</title>
       <link>https://flaviajesussantos.github.io/MeuBlog/contact/</link>
