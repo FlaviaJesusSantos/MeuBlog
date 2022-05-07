@@ -18,11 +18,11 @@ show_post_date: true
 show_post_thumbnail: true
 sidebar:
   author: 
-  description: "Este é meu blog pessoal."
+  description: "Aqui estão todos os meus textos e tutoriais."
   show_sidebar_adunit: true
   text_link_label: 
   text_link_url: /index.xml
-  title: Meu Blog
+  title: Postagens
 thumbnail_right: true
 title: Blog
 ---

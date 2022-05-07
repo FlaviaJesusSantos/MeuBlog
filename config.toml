@@ -32,7 +32,7 @@ publishDir = "docs/"
   orgName = "Flavia de Jesus"
   orgLocal = ""
   description = ""
-  favicon = "/img/img3.jpg"
+  favicon = "/img/avatar.jpg"
   logo = ""
   mainSections = ["blog", "project"]
   navallcaps = true
@@ -107,7 +107,7 @@ publishDir = "docs/"
 [menu]
   # Configure header 
   [[menu.header]]
-    name = "Sobre"
+    name = "Sobre mim"
     title = "About Blogophonic"
     url = "/about/"
     weight = 3

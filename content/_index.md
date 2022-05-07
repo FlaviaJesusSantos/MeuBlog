@@ -1,9 +1,9 @@
 ---
 title: "Flavia de Jesus"
 subtitle: "Meu Blog Pessoal"
-description: ""
+description: "Sejam bem-vindos ao meu blog! Este é um site com postagens de análises estatísticas e tutoriais nas linguagens R e Python."
 images:
-  - img/img4.jpg
+  - img/revoir.jpg
 image_left: true
 text_align_left: false
 show_social_links: true # specify social accounts in site config
