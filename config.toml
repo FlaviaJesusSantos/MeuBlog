@@ -1,4 +1,4 @@
-baseURL = "https://flaviajesussantos.github.io/"
+baseURL = "https://flaviajesussantos.github.io/MeuBlog/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Flavia de Jesus"

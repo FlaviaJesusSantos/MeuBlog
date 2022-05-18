@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flavia de Jesus</title>
-    <link>https://flaviajesussantos.github.io/</link>
+    <link>https://flaviajesussantos.github.io/MeuBlog/</link>
     <description>Recent content on Flavia de Jesus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flaviajesussantos.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flaviajesussantos.github.io/MeuBlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analisando os acidentes nas Rodovias Federais</title>
-      <link>https://flaviajesussantos.github.io/blog/2022-05-06-an-lise-de-acidentes-nas-rodovias-federais-do-brasil/</link>
+      <link>https://flaviajesussantos.github.io/MeuBlog/blog/2022-05-06-an-lise-de-acidentes-nas-rodovias-federais-do-brasil/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://flaviajesussantos.github.io/blog/2022-05-06-an-lise-de-acidentes-nas-rodovias-federais-do-brasil/</guid>
+      <guid>https://flaviajesussantos.github.io/MeuBlog/blog/2022-05-06-an-lise-de-acidentes-nas-rodovias-federais-do-brasil/</guid>
       <description>Em breve.</description>
     </item>
     
     <item>
       <title>Contate-me</title>
-      <link>https://flaviajesussantos.github.io/contact/</link>
+      <link>https://flaviajesussantos.github.io/MeuBlog/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://flaviajesussantos.github.io/contact/</guid>
+      <guid>https://flaviajesussantos.github.io/MeuBlog/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>License</title>
-      <link>https://flaviajesussantos.github.io/license/</link>
+      <link>https://flaviajesussantos.github.io/MeuBlog/license/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://flaviajesussantos.github.io/license/</guid>
+      <guid>https://flaviajesussantos.github.io/MeuBlog/license/</guid>
       <description>My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.
   </description>
     </item>

@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meus Projetos on Flavia de Jesus</title>
-    <link>https://flaviajesussantos.github.io/project/</link>
+    <link>https://flaviajesussantos.github.io/MeuBlog/project/</link>
     <description>Recent content in Meus Projetos on Flavia de Jesus</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://flaviajesussantos.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://flaviajesussantos.github.io/MeuBlog/project/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
