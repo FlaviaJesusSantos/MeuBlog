@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Flavia de Jesus</title>
-    <link>https://flaviajesussantos.github.io/MeuBlog/categories/r/</link>
+    <link>https://flaviajesussantos.github.io/categories/r/</link>
     <description>Recent content in R on Flavia de Jesus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flaviajesussantos.github.io/MeuBlog/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flaviajesussantos.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Criando um blog com blogdown (em construção)</title>
-      <link>https://flaviajesussantos.github.io/MeuBlog/blog/2022-04-19-criando-um-blog-com-blogdown/</link>
-      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
+      <title>Analisando os acidentes nas Rodovias Federais</title>
+      <link>https://flaviajesussantos.github.io/blog/2022-05-06-an-lise-de-acidentes-nas-rodovias-federais-do-brasil/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://flaviajesussantos.github.io/MeuBlog/blog/2022-04-19-criando-um-blog-com-blogdown/</guid>
-      <description>Existem algumas formas de criar sites utilizando o R, neste primeiro post eu criei um tutorial construindo um blog utilizando o pacote blogdown.
-install.packages(&amp;#34;blogdown&amp;#34;) blogdown::install_hugo() blogdown::new_site(&amp;#34;pasta&amp;#34;, theme = &amp;#34;usuario/repositorio&amp;#34;)  Temas: HUGO.  blogdown::serve_site() Continua..</description>
+      <guid>https://flaviajesussantos.github.io/blog/2022-05-06-an-lise-de-acidentes-nas-rodovias-federais-do-brasil/</guid>
+      <description>Em breve.</description>
     </item>
     
   </channel>

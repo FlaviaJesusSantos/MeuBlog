@@ -2,24 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/blog/</loc>
+    <loc>https://flaviajesussantos.github.io/blog/2022-05-06-an-lise-de-acidentes-nas-rodovias-federais-do-brasil/</loc>
+    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/categories/</loc>
+    <loc>https://flaviajesussantos.github.io/categories/an%C3%A1lise-de-dados/</loc>
+    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/contact/</loc>
+    <loc>https://flaviajesussantos.github.io/blog/</loc>
+    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/</loc>
+    <loc>https://flaviajesussantos.github.io/categories/</loc>
+    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/form/</loc>
+    <loc>https://flaviajesussantos.github.io/</loc>
+    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/license/</loc>
+    <loc>https://flaviajesussantos.github.io/categories/r/</loc>
+    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/project/</loc>
+    <loc>https://flaviajesussantos.github.io/contact/</loc>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/series/</loc>
+    <loc>https://flaviajesussantos.github.io/form/</loc>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/about/</loc>
+    <loc>https://flaviajesussantos.github.io/license/</loc>
   </url><url>
-    <loc>https://flaviajesussantos.github.io/MeuBlog/tags/</loc>
+    <loc>https://flaviajesussantos.github.io/project/</loc>
+  </url><url>
+    <loc>https://flaviajesussantos.github.io/series/</loc>
+  </url><url>
+    <loc>https://flaviajesussantos.github.io/about/</loc>
+  </url><url>
+    <loc>https://flaviajesussantos.github.io/tags/</loc>
   </url>
 </urlset>
