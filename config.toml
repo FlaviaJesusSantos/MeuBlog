@@ -1,4 +1,4 @@
-baseURL = "https://flaviajesussantos.github.io/MeuBlog/"
+baseURL = "https://flaviajesussantos.github.io/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Flavia de Jesus"
@@ -32,7 +32,7 @@ publishDir = "docs/"
   orgName = "Flavia de Jesus"
   orgLocal = ""
   description = ""
-  favicon = "/img/avatar.jpg"
+  favicon = "/img/foto.jpeg"
   logo = ""
   mainSections = ["blog", "project"]
   navallcaps = true
@@ -124,7 +124,7 @@ publishDir = "docs/"
     
   # Configure footer  
   [[menu.footer]]
-    name = "License"
+    name = "Licença"
     title = "License"
     url = "/license/"
     weight = 1
