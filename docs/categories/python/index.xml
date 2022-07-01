@@ -6,14 +6,14 @@
     <description>Recent content in Python on Flavia de Jesus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flaviajesussantos.github.io/MeuBlog/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flaviajesussantos.github.io/MeuBlog/categories/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Python 01</title>
-      <link>https://flaviajesussantos.github.io/MeuBlog/blog/python-serie/2022-04-23-python/</link>
-      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
+      <title>Mapas de calor no Python</title>
+      <link>https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-01-mapas-de-calor-no-python/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://flaviajesussantos.github.io/MeuBlog/blog/python-serie/2022-04-23-python/</guid>
-      <description>Em breve.</description>
+      <guid>https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-01-mapas-de-calor-no-python/</guid>
+      <description>import numpy as np import matplotlib.pyplot as plt covid = open(&amp;#34;covid.fasta&amp;#34;).read() print(covid[98:]) influenza = open(&amp;#34;influenza.fasta&amp;#34;).read() print(influenza[104:]) covid = covid.replace(&amp;#34;\n&amp;#34;, &amp;#34;&amp;#34;) pares1 = [] for i in range(len(covid)-1):  pares1.append(covid[i] + covid[i+1])  print(pares1)covid = covid.replace(&amp;#34;\n&amp;#34;, &amp;#34;&amp;#34;) influenza = influenza.replace(&amp;#34;\n&amp;#34;, &amp;#34;&amp;#34;) pares2 = [] for i in range(len(influenza)-1):  pares2.append(influenza[i] + influenza[i+1])  print(pares2) ## Contar frequencia from collections import Counter contagem = Counter(pares) print(contagem) matriz1 = np.array([AA,AT,AC,AG,TA,TT,TC,TG,CA,CT,CC,CG,GA,GT,GC,GG]) print(matriz1) matriz2 = np.</description>
     </item>
     
   </channel>

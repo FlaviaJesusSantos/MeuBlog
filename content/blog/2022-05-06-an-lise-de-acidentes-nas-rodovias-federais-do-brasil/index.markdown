@@ -11,4 +11,104 @@ layout: single # single or single-sidebar
 ---
 
 ---
-Em breve.
+
+
+```r
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
+
+```r
+detran = pd.read_csv(r'dados.csv', encoding='ISO-8859-1',sep=' ')
+```
+
+
+```r
+df_detran = pd.DataFrame(detran)
+df_detran
+```
+
+
+```r
+sns.set_style("dark")
+ax = sns.countplot(y = 'uf', data = df_detran, color = 'red', order= df_detran['uf'].value_counts().index)
+ax.set(xlabel=None)
+ax.set(xticklabels=[])
+plt.title("Número de Ocorrências por Estados")
+#plt.xlabel("Ocorrências")
+plt.ylabel("Estados")
+plt.show()
+```
+
+
+```r
+# filtrando df para top 27 municipios
+df_municipios = df_detran['municipio'].value_counts().head(27)
+df_municipios# filtrando df para top 27 municipios
+```
+
+
+```r
+#plot para os municipios
+sns.set_style("dark")
+ax = sns.countplot(y = 'municipio', data = df_detran, color = 'red', order= df_detran['municipio'].value_counts().head(27).index)
+ax.set(xlabel=None)
+ax.set(xticklabels=[])
+plt.title("Número de casos por Munícipios")
+#plt.xlabel("Ocorrências")
+plt.ylabel("Estados")
+plt.show()
+```
+
+
+```r
+#plot para os municipios
+sns.set_style("dark")
+ax = sns.countplot(y = 'dia_semana', data = df_detran, color = 'red', order= df_detran['dia_semana'].value_counts().head(7).index)
+ax.set(xlabel=None)
+ax.set(xticklabels=[])
+plt.title("Número de Ocorrências por Munícipios")
+plt.xlabel("Ocorrências")
+plt.ylabel("Estados")
+plt.show()
+```
+
+
+```r
+#plot para os municipios
+sns.set_style("dark")
+ax = sns.countplot(y = 'tipo_acidente', data = df_detran, color = 'red', order= df_detran['tipo_acidente'].value_counts().head(7).index)
+ax.set(xlabel=None)
+ax.set(xticklabels=[])
+plt.title("Número de Ocorrências por Munícipios")
+plt.xlabel("Ocorrências")
+plt.ylabel("Estados")
+plt.show()
+```
+
+
+```r
+# filtrando df para top 15 causas
+df_causa = df_detran['causa_acidente'].value_counts().head(15)
+df_causa
+```
+
+
+```r
+sns.set_style("dark")
+ax = sns.countplot(y = 'causa_acidente', data = df_detran, color = 'red', order= df_detran['causa_acidente'].value_counts().head(10).index)
+#ax.bar_label(ax.containers[0])
+ax.set(xlabel=None)
+ax.set(xticklabels=[])
+plt.title("10 Principais Causas de Acidentes")
+plt.xlabel("Casos")
+plt.ylabel("")
+plt.show()
+```
+
+
+
+

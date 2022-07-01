@@ -41,9 +41,9 @@
     
     
   <meta itemprop="name" content="Analisando os acidentes nas Rodovias Federais">
-<meta itemprop="description" content="Em breve."><meta itemprop="datePublished" content="2022-05-18T00:00:00+00:00" />
+<meta itemprop="description" content="import pandas as pd import numpy as np import matplotlib.pyplot as plt import seaborn as sns detran = pd.read_csv(r&#39;dados.csv&#39;, encoding=&#39;ISO-8859-1&#39;,sep=&#39; &#39;) df_detran = pd.DataFrame(detran) df_detran sns.set_style(&#34;dark&#34;) ax = sns.countplot(y = &#39;uf&#39;, data = df_detran, color = &#39;red&#39;, order= df_detran[&#39;uf&#39;].value_counts().index) ax.set(xlabel=None) ax.set(xticklabels=[]) plt.title(&#34;Número de Ocorrências por Estados&#34;) #plt.xlabel(&#34;Ocorrências&#34;) plt.ylabel(&#34;Estados&#34;) plt.show() # filtrando df para top 27 municipios df_municipios = df_detran[&#39;municipio&#39;].value_counts().head(27) df_municipios# filtrando df para top 27 municipios #plot para os municipios sns."><meta itemprop="datePublished" content="2022-05-18T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-05-18T00:00:00+00:00" />
-<meta itemprop="wordCount" content="2"><meta itemprop="image" content="https://flaviajesussantos.github.io/MeuBlog/blog/2022-05-06-an-lise-de-acidentes-nas-rodovias-federais-do-brasil/featured.jpg">
+<meta itemprop="wordCount" content="186"><meta itemprop="image" content="https://flaviajesussantos.github.io/MeuBlog/blog/2022-05-06-an-lise-de-acidentes-nas-rodovias-federais-do-brasil/featured.jpg">
 <meta itemprop="keywords" content="" />
   
   
@@ -103,8 +103,64 @@
       </header>
       <section class="post-body pt5 pb4">
         <hr>
-<p>Em breve.</p>
-
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>import pandas as pd
+</span></span><span style="display:flex;"><span>import numpy as np
+</span></span><span style="display:flex;"><span>import matplotlib.pyplot as plt
+</span></span><span style="display:flex;"><span>import seaborn as sns
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>detran <span style="color:#000;font-weight:bold">=</span> <span style="color:#900;font-weight:bold">pd.read_csv</span>(r<span style="color:#d14">&#39;dados.csv&#39;</span>, encoding<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#39;ISO-8859-1&#39;</span>,sep<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#39; &#39;</span>)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>df_detran <span style="color:#000;font-weight:bold">=</span> <span style="color:#900;font-weight:bold">pd.DataFrame</span>(detran)
+</span></span><span style="display:flex;"><span>df_detran
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#900;font-weight:bold">sns.set_style</span>(<span style="color:#d14">&#34;dark&#34;</span>)
+</span></span><span style="display:flex;"><span>ax <span style="color:#000;font-weight:bold">=</span> <span style="color:#900;font-weight:bold">sns.countplot</span>(y <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;uf&#39;</span>, data <span style="color:#000;font-weight:bold">=</span> df_detran, color <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;red&#39;</span>, order<span style="color:#000;font-weight:bold">=</span> df_detran[<span style="color:#d14">&#39;uf&#39;</span><span style="color:#900;font-weight:bold">].value_counts</span>().index)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">ax.set</span>(xlabel<span style="color:#000;font-weight:bold">=</span>None)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">ax.set</span>(xticklabels<span style="color:#000;font-weight:bold">=</span>[])
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.title</span>(<span style="color:#d14">&#34;Número de Ocorrências por Estados&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">#plt.xlabel(&#34;Ocorrências&#34;)</span>
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.ylabel</span>(<span style="color:#d14">&#34;Estados&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.show</span>()
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># filtrando df para top 27 municipios</span>
+</span></span><span style="display:flex;"><span>df_municipios <span style="color:#000;font-weight:bold">=</span> df_detran[<span style="color:#d14">&#39;municipio&#39;</span><span style="color:#900;font-weight:bold">].value_counts</span>()<span style="color:#900;font-weight:bold">.head</span>(<span style="color:#099">27</span>)
+</span></span><span style="display:flex;"><span>df_municipios<span style="color:#998;font-style:italic"># filtrando df para top 27 municipios</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#998;font-style:italic">#plot para os municipios</span>
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">sns.set_style</span>(<span style="color:#d14">&#34;dark&#34;</span>)
+</span></span><span style="display:flex;"><span>ax <span style="color:#000;font-weight:bold">=</span> <span style="color:#900;font-weight:bold">sns.countplot</span>(y <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;municipio&#39;</span>, data <span style="color:#000;font-weight:bold">=</span> df_detran, color <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;red&#39;</span>, order<span style="color:#000;font-weight:bold">=</span> df_detran[<span style="color:#d14">&#39;municipio&#39;</span><span style="color:#900;font-weight:bold">].value_counts</span>()<span style="color:#900;font-weight:bold">.head</span>(<span style="color:#099">27</span>).index)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">ax.set</span>(xlabel<span style="color:#000;font-weight:bold">=</span>None)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">ax.set</span>(xticklabels<span style="color:#000;font-weight:bold">=</span>[])
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.title</span>(<span style="color:#d14">&#34;Número de casos por Munícipios&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">#plt.xlabel(&#34;Ocorrências&#34;)</span>
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.ylabel</span>(<span style="color:#d14">&#34;Estados&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.show</span>()
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#998;font-style:italic">#plot para os municipios</span>
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">sns.set_style</span>(<span style="color:#d14">&#34;dark&#34;</span>)
+</span></span><span style="display:flex;"><span>ax <span style="color:#000;font-weight:bold">=</span> <span style="color:#900;font-weight:bold">sns.countplot</span>(y <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;dia_semana&#39;</span>, data <span style="color:#000;font-weight:bold">=</span> df_detran, color <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;red&#39;</span>, order<span style="color:#000;font-weight:bold">=</span> df_detran[<span style="color:#d14">&#39;dia_semana&#39;</span><span style="color:#900;font-weight:bold">].value_counts</span>()<span style="color:#900;font-weight:bold">.head</span>(<span style="color:#099">7</span>).index)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">ax.set</span>(xlabel<span style="color:#000;font-weight:bold">=</span>None)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">ax.set</span>(xticklabels<span style="color:#000;font-weight:bold">=</span>[])
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.title</span>(<span style="color:#d14">&#34;Número de Ocorrências por Munícipios&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.xlabel</span>(<span style="color:#d14">&#34;Ocorrências&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.ylabel</span>(<span style="color:#d14">&#34;Estados&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.show</span>()
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#998;font-style:italic">#plot para os municipios</span>
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">sns.set_style</span>(<span style="color:#d14">&#34;dark&#34;</span>)
+</span></span><span style="display:flex;"><span>ax <span style="color:#000;font-weight:bold">=</span> <span style="color:#900;font-weight:bold">sns.countplot</span>(y <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;tipo_acidente&#39;</span>, data <span style="color:#000;font-weight:bold">=</span> df_detran, color <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;red&#39;</span>, order<span style="color:#000;font-weight:bold">=</span> df_detran[<span style="color:#d14">&#39;tipo_acidente&#39;</span><span style="color:#900;font-weight:bold">].value_counts</span>()<span style="color:#900;font-weight:bold">.head</span>(<span style="color:#099">7</span>).index)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">ax.set</span>(xlabel<span style="color:#000;font-weight:bold">=</span>None)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">ax.set</span>(xticklabels<span style="color:#000;font-weight:bold">=</span>[])
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.title</span>(<span style="color:#d14">&#34;Número de Ocorrências por Munícipios&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.xlabel</span>(<span style="color:#d14">&#34;Ocorrências&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.ylabel</span>(<span style="color:#d14">&#34;Estados&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.show</span>()
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># filtrando df para top 15 causas</span>
+</span></span><span style="display:flex;"><span>df_causa <span style="color:#000;font-weight:bold">=</span> df_detran[<span style="color:#d14">&#39;causa_acidente&#39;</span><span style="color:#900;font-weight:bold">].value_counts</span>()<span style="color:#900;font-weight:bold">.head</span>(<span style="color:#099">15</span>)
+</span></span><span style="display:flex;"><span>df_causa
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#900;font-weight:bold">sns.set_style</span>(<span style="color:#d14">&#34;dark&#34;</span>)
+</span></span><span style="display:flex;"><span>ax <span style="color:#000;font-weight:bold">=</span> <span style="color:#900;font-weight:bold">sns.countplot</span>(y <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;causa_acidente&#39;</span>, data <span style="color:#000;font-weight:bold">=</span> df_detran, color <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;red&#39;</span>, order<span style="color:#000;font-weight:bold">=</span> df_detran[<span style="color:#d14">&#39;causa_acidente&#39;</span><span style="color:#900;font-weight:bold">].value_counts</span>()<span style="color:#900;font-weight:bold">.head</span>(<span style="color:#099">10</span>).index)
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">#ax.bar_label(ax.containers[0])</span>
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">ax.set</span>(xlabel<span style="color:#000;font-weight:bold">=</span>None)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">ax.set</span>(xticklabels<span style="color:#000;font-weight:bold">=</span>[])
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.title</span>(<span style="color:#d14">&#34;10 Principais Causas de Acidentes&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.xlabel</span>(<span style="color:#d14">&#34;Casos&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.ylabel</span>(<span style="color:#d14">&#34;&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">plt.show</span>()
+</span></span></code></pre></div>
         
         <details closed class="f6 fw7 input-reset">
   <dl class="f6 lh-copy">
@@ -113,7 +169,7 @@
   </dl>
   <dl class="f6 lh-copy">
     <dt class="fw7">Tempo de leitura:</dt>
-    <dd class="fw5 ml0">1 minutos de leitura, 2 palavras</dd>
+    <dd class="fw5 ml0">1 minutos de leitura, 186 palavras</dd>
   </dl>
   
   <dl class="f6 lh-copy">
@@ -133,6 +189,9 @@
       <footer class="post-footer">
         <div class="post-pagination dt w-100 mt4 mb2">
   
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-01-mapas-de-calor-no-python/">&larr; Mapas de calor no Python</a>
   
   
   
