@@ -14,7 +14,7 @@ layout: single # single or single-sidebar
 ---
 A atenção no trânsito é algo de extrema importância na vida de toda a população a fim de evitar que acidentes aconteçam. Infelizmente, as estatísticas ainda mostram um grande número de mortes no trânsito, ocasionadas por diversos fatores.
 
-Os dados utilizados para esta análise foramm retirados do Ministério da Justiça e Segurança Pública - Polícia Rodoviária Federal: [Acidentes](https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-acidentes). 
+Os dados utilizados para esta análise foram retirados do Ministério da Justiça e Segurança Pública - Polícia Rodoviária Federal: [Acidentes](https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-acidentes). 
 
 Para entender em qual contexto ocorrem mais acidentes, algumas perguntas serão respondidas ao longo desta análise:
 
@@ -53,63 +53,55 @@ df_detran
 
 ```r
 sns.set_style("dark")
-ax = sns.countplot(y = 'uf', data = df_detran, color = 'blue', order= df_detran['uf'].value_counts().index)
+ax = sns.countplot(y = 'uf', data = df_detran, color = 'cornflowerblue', 
+                   order= df_detran['uf'].value_counts().head(10).index)
 ax.set(xlabel=None)
 ax.set(xticklabels=[])
-plt.title("Número de Ocorrências por Estados")
-#plt.xlabel("Ocorrências")
+plt.title("Número de acidentes por Estados")
+plt.xlabel("Acidentes")
 plt.ylabel("Estados")
 plt.show()
 ```
 
+![](img/uf.png)
+
 
 ```r
-# filtrando df para top 27 municipios
-df_municipios = df_detran['municipio'].value_counts().head(27)
-df_municipios# filtrando df para top 27 municipios
+# filtrando df para top 10 municipios
+df_municipios = df_detran['municipio'].value_counts().head(10)
+df_municipios
 ```
 
 
 ```r
 #plot para os municipios
 sns.set_style("dark")
-ax = sns.countplot(y = 'municipio', data = df_detran, color = 'red', 
-                   order= df_detran['municipio'].value_counts().head(27).index)
+ax = sns.countplot(y = 'municipio', data = df_detran, color = 'cornflowerblue', order= df_detran['municipio'].value_counts().head(10).index)
 ax.set(xlabel=None)
 ax.set(xticklabels=[])
 plt.title("Número de casos por Munícipios")
-#plt.xlabel("Ocorrências")
-plt.ylabel("Estados")
+plt.xlabel("Acidentes")
+plt.ylabel("Municípios")
 plt.show()
 ```
+
+![](img/mun.png)
+
 
 
 ```r
-#plot para os municipios
+#plot para os dias da semana
 sns.set_style("dark")
-ax = sns.countplot(y = 'dia_semana', data = df_detran, color = 'red',
-                   order= df_detran['dia_semana'].value_counts().head(7).index)
+ax = sns.countplot(y = 'dia_semana', data = df_detran, color = 'cornflowerblue', order= df_detran['dia_semana'].value_counts().head(7).index)
 ax.set(xlabel=None)
 ax.set(xticklabels=[])
-plt.title("Número de Ocorrências por Munícipios")
-plt.xlabel("Ocorrências")
-plt.ylabel("Estados")
+plt.title("Número de acidentes em cada dia")
+plt.xlabel("Acidentes")
+plt.ylabel("Dias da Semana")
 plt.show()
 ```
 
-
-```r
-#plot para os municipios
-sns.set_style("dark")
-ax = sns.countplot(y = 'tipo_acidente', data = df_detran, color = 'red', 
-                   order= df_detran['tipo_acidente'].value_counts().head(7).index)
-ax.set(xlabel=None)
-ax.set(xticklabels=[])
-plt.title("Número de Ocorrências por Munícipios")
-plt.xlabel("Ocorrências")
-plt.ylabel("Estados")
-plt.show()
-```
+![](img/dia.png)
 
 
 ```r
@@ -119,18 +111,22 @@ df_causa
 ```
 
 
+
 ```r
+#plot para os tipos de acidentes
+#plot para as causas
 sns.set_style("dark")
-ax = sns.countplot(y = 'causa_acidente', data = df_detran, color = 'red',
-                   order= df_detran['causa_acidente'].value_counts().head(10).index)
-#ax.bar_label(ax.containers[0])
+ax = sns.countplot(y = 'tipo_acidente', data = df_detran, color = 'cornflowerblue', order= df_detran['tipo_acidente'].value_counts().head(7).index)
 ax.set(xlabel=None)
 ax.set(xticklabels=[])
-plt.title("10 Principais Causas de Acidentes")
-plt.xlabel("Casos")
-plt.ylabel("")
+plt.title("Número de acidentes por causa")
+plt.xlabel("Acidentes")
+plt.ylabel("Causas")
 plt.show()
 ```
+
+![](img/causa.png)
+
 
 
 
