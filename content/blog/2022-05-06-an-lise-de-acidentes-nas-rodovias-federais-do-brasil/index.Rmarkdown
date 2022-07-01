@@ -59,7 +59,7 @@ plt.ylabel("Estados")
 plt.show()
 ```
 
-![](img/uf.png)
+
 
 ```{r, eval=FALSE}
 # filtrando df para top 10 municipios
@@ -79,7 +79,6 @@ plt.ylabel("Municípios")
 plt.show()
 ```
 
-![](img/mun.png)
 
 
 ```{r, eval=FALSE}
@@ -94,7 +93,7 @@ plt.ylabel("Dias da Semana")
 plt.show()
 ```
 
-![](img/dia.png)
+
 
 ```{r, eval=FALSE}
 # filtrando df para top 15 causas
@@ -116,7 +115,7 @@ plt.ylabel("Causas")
 plt.show()
 ```
 
-![](img/causa.png)
+
 
 
 

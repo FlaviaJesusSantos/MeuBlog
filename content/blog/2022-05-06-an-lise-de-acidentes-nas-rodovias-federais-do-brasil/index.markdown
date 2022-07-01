@@ -63,7 +63,7 @@ plt.ylabel("Estados")
 plt.show()
 ```
 
-![](img/uf.png)
+
 
 
 ```r
@@ -85,7 +85,6 @@ plt.ylabel("Municípios")
 plt.show()
 ```
 
-![](img/mun.png)
 
 
 
@@ -101,7 +100,7 @@ plt.ylabel("Dias da Semana")
 plt.show()
 ```
 
-![](img/dia.png)
+
 
 
 ```r
@@ -125,7 +124,7 @@ plt.ylabel("Causas")
 plt.show()
 ```
 
-![](img/causa.png)
+
 
 
 
