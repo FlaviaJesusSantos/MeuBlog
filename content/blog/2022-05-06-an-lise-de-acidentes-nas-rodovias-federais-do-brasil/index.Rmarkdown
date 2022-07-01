@@ -3,14 +3,33 @@ title: Analisando os acidentes nas Rodovias Federais
 author: ''
 date: '2022-05-18'
 slug: []
-excerpt: "Neste primeiro post, eu fiz uma análise nos dados dos acidentes nas rodovias federais brasileiras."
+excerpt: "A atenção no trânsito é algo de extrema importância na vida de toda a população a fim de evitar que acidentes aconteçam. Infelizmente, as estatísticas ainda mostram um grande número de mortes no trânsito, ocasionadas por diversos fatores."
 categories:
-  - R
+  - Python
   - Análise de dados
 layout: single # single or single-sidebar  
 ---
 
+
 ---
+A atenção no trânsito é algo de extrema importância na vida de toda a população a fim de evitar que acidentes aconteçam. Infelizmente, as estatísticas ainda mostram um grande número de mortes no trânsito, ocasionadas por diversos fatores.
+
+Os dados utilizados para esta análise foramm retirados do Ministério da Justiça e Segurança Pública - Polícia Rodoviária Federal: [Acidentes](https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-acidentes). 
+
+Para entender em qual contexto ocorrem mais acidentes, algumas perguntas serão respondidas ao longo desta análise:
+
+* Quais são o estados/municípios com maior número de acidentes?
+
+* Quais são os principais motivos dos acidentes nas rodovias?
+
+* Quais os dias da semana com o maior número de acidentes?
+
+* Quais são os tipos de veículos que mais se envolveram em acidentes?
+
+* Qual o total de óbitos, feridos graves/leves e ilesos?
+
+* Qual o número de acidentes por mês?
+
 
 ```{r, eval=FALSE}
 import pandas as pd
@@ -30,7 +49,7 @@ df_detran
 
 ```{r, eval=FALSE}
 sns.set_style("dark")
-ax = sns.countplot(y = 'uf', data = df_detran, color = 'red', order= df_detran['uf'].value_counts().index)
+ax = sns.countplot(y = 'uf', data = df_detran, color = 'blue', order= df_detran['uf'].value_counts().index)
 ax.set(xlabel=None)
 ax.set(xticklabels=[])
 plt.title("Número de Ocorrências por Estados")
@@ -48,7 +67,8 @@ df_municipios# filtrando df para top 27 municipios
 ```{r, eval=FALSE}
 #plot para os municipios
 sns.set_style("dark")
-ax = sns.countplot(y = 'municipio', data = df_detran, color = 'red', order= df_detran['municipio'].value_counts().head(27).index)
+ax = sns.countplot(y = 'municipio', data = df_detran, color = 'red', 
+                   order= df_detran['municipio'].value_counts().head(27).index)
 ax.set(xlabel=None)
 ax.set(xticklabels=[])
 plt.title("Número de casos por Munícipios")
@@ -60,7 +80,8 @@ plt.show()
 ```{r, eval=FALSE}
 #plot para os municipios
 sns.set_style("dark")
-ax = sns.countplot(y = 'dia_semana', data = df_detran, color = 'red', order= df_detran['dia_semana'].value_counts().head(7).index)
+ax = sns.countplot(y = 'dia_semana', data = df_detran, color = 'red',
+                   order= df_detran['dia_semana'].value_counts().head(7).index)
 ax.set(xlabel=None)
 ax.set(xticklabels=[])
 plt.title("Número de Ocorrências por Munícipios")
@@ -72,7 +93,8 @@ plt.show()
 ```{r, eval=FALSE}
 #plot para os municipios
 sns.set_style("dark")
-ax = sns.countplot(y = 'tipo_acidente', data = df_detran, color = 'red', order= df_detran['tipo_acidente'].value_counts().head(7).index)
+ax = sns.countplot(y = 'tipo_acidente', data = df_detran, color = 'red', 
+                   order= df_detran['tipo_acidente'].value_counts().head(7).index)
 ax.set(xlabel=None)
 ax.set(xticklabels=[])
 plt.title("Número de Ocorrências por Munícipios")
@@ -89,7 +111,8 @@ df_causa
 
 ```{r, eval=FALSE}
 sns.set_style("dark")
-ax = sns.countplot(y = 'causa_acidente', data = df_detran, color = 'red', order= df_detran['causa_acidente'].value_counts().head(10).index)
+ax = sns.countplot(y = 'causa_acidente', data = df_detran, color = 'red',
+                   order= df_detran['causa_acidente'].value_counts().head(10).index)
 #ax.bar_label(ax.containers[0])
 ax.set(xlabel=None)
 ax.set(xticklabels=[])

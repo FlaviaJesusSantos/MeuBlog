@@ -13,7 +13,9 @@
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://flaviajesussantos.github.io/MeuBlog/blog/2022-05-06-an-lise-de-acidentes-nas-rodovias-federais-do-brasil/</guid>
-      <description>import pandas as pd import numpy as np import matplotlib.pyplot as plt import seaborn as sns detran = pd.read_csv(r&amp;#39;dados.csv&amp;#39;, encoding=&amp;#39;ISO-8859-1&amp;#39;,sep=&amp;#39; &amp;#39;) df_detran = pd.DataFrame(detran) df_detran sns.set_style(&amp;#34;dark&amp;#34;) ax = sns.countplot(y = &amp;#39;uf&amp;#39;, data = df_detran, color = &amp;#39;red&amp;#39;, order= df_detran[&amp;#39;uf&amp;#39;].value_counts().index) ax.set(xlabel=None) ax.set(xticklabels=[]) plt.title(&amp;#34;Número de Ocorrências por Estados&amp;#34;) #plt.xlabel(&amp;#34;Ocorrências&amp;#34;) plt.ylabel(&amp;#34;Estados&amp;#34;) plt.show() # filtrando df para top 27 municipios df_municipios = df_detran[&amp;#39;municipio&amp;#39;].value_counts().head(27) df_municipios# filtrando df para top 27 municipios #plot para os municipios sns.</description>
+      <description>A atenção no trânsito é algo de extrema importância na vida de toda a população a fim de evitar que acidentes aconteçam. Infelizmente, as estatísticas ainda mostram um grande número de mortes no trânsito, ocasionadas por diversos fatores.
+Os dados utilizados para esta análise foramm retirados do Ministério da Justiça e Segurança Pública - Polícia Rodoviária Federal: Acidentes.
+Para entender em qual contexto ocorrem mais acidentes, algumas perguntas serão respondidas ao longo desta análise:</description>
     </item>
     
   </channel>

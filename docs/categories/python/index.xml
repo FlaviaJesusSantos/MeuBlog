@@ -8,12 +8,24 @@
     <language>en</language>
     <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flaviajesussantos.github.io/MeuBlog/categories/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mapas de calor no Python</title>
+      <title>Utilizando mapas de calor no Python para comparação de genomas</title>
       <link>https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-01-mapas-de-calor-no-python/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-01-mapas-de-calor-no-python/</guid>
-      <description>import numpy as np import matplotlib.pyplot as plt covid = open(&amp;#34;covid.fasta&amp;#34;).read() print(covid[98:]) influenza = open(&amp;#34;influenza.fasta&amp;#34;).read() print(influenza[104:]) covid = covid.replace(&amp;#34;\n&amp;#34;, &amp;#34;&amp;#34;) pares1 = [] for i in range(len(covid)-1):  pares1.append(covid[i] + covid[i+1])  print(pares1)covid = covid.replace(&amp;#34;\n&amp;#34;, &amp;#34;&amp;#34;) influenza = influenza.replace(&amp;#34;\n&amp;#34;, &amp;#34;&amp;#34;) pares2 = [] for i in range(len(influenza)-1):  pares2.append(influenza[i] + influenza[i+1])  print(pares2) ## Contar frequencia from collections import Counter contagem = Counter(pares) print(contagem) matriz1 = np.array([AA,AT,AC,AG,TA,TT,TC,TG,CA,CT,CC,CG,GA,GT,GC,GG]) print(matriz1) matriz2 = np.</description>
+      <description>Comparação de genomas     Pretende-se comparar duas sequências de DNA: SARS-CoV-2 identificado na cidade de Wuhan (China) e o Virus da Influenza A identificado na California (US).
+O DNA é uma molécula presente em todos os seres vivos, que é responsável por armazenar as caracterı́sticas hereditárias. Ela é composta por sequências de nucleot́ideos, que podem ser de quatro tipos: Adenina (A), Timina (T), Citosina (C) ou Guanina (G).</description>
+    </item>
+    
+    <item>
+      <title>Analisando os acidentes nas Rodovias Federais</title>
+      <link>https://flaviajesussantos.github.io/MeuBlog/blog/2022-05-06-an-lise-de-acidentes-nas-rodovias-federais-do-brasil/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://flaviajesussantos.github.io/MeuBlog/blog/2022-05-06-an-lise-de-acidentes-nas-rodovias-federais-do-brasil/</guid>
+      <description>A atenção no trânsito é algo de extrema importância na vida de toda a população a fim de evitar que acidentes aconteçam. Infelizmente, as estatísticas ainda mostram um grande número de mortes no trânsito, ocasionadas por diversos fatores.
+Os dados utilizados para esta análise foramm retirados do Ministério da Justiça e Segurança Pública - Polícia Rodoviária Federal: Acidentes.
+Para entender em qual contexto ocorrem mais acidentes, algumas perguntas serão respondidas ao longo desta análise:</description>
     </item>
     
   </channel>
