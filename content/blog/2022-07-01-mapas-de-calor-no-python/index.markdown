@@ -157,7 +157,7 @@ _ = plt.colorbar()
 
 ![Covid-19](img/covid.png)
 
+Para acessar o código no [Binder](https://mybinder.org/v2/gh/FlaviaJesusSantos/Desafio_1/c54bab81a4f9d8101726c8943c6d7ad36910b5ad?urlpath=lab%2Ftree%2FDesafio_1.ipynb).
 
-
-
+Para acessar o código no [Github](https://github.com/FlaviaJesusSantos/Desafio_1/blob/main/Desafio_1.ipynb).
 
