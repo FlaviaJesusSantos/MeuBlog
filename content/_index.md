@@ -1,15 +1,15 @@
 ---
 title: "Flavia de Jesus"
 subtitle: "Meu Blog Pessoal"
-description: "Sejam bem-vindos ao meu blog! Este é um site com postagens de análises estatísticas."
+description: "Sejam bem-vindos a minha página pessoal! Este é um site com postagens de análises estatísticas, projetos, tutoriais, R, Python e assuntos similares. Constantemente sendo atualizado!"
 images:
   - img/revoir.jpg
-image_left: true
-text_align_left: false
+image_right: true
+text_align_left: true
 show_social_links: true # specify social accounts in site config
 show_action_link: true
 action_link: /about
-action_label: "Leia mais &rarr;"
+action_label: "Saiba mais &rarr;"
 action_type: text # text, button
 type: home
 ---
