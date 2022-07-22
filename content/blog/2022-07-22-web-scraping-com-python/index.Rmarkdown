@@ -3,7 +3,7 @@ title: Web Scraping com Python
 author: ''
 date: '2022-07-22'
 slug: []
-excerpt: "Neste post eu apresento uma maneira de extrair tabelas de site no Python"
+excerpt: "Neste post eu apresento uma maneira de extrair informações de um site."
 categories:
   - Python
   - Web Scraping
