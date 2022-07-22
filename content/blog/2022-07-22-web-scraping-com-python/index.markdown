@@ -1,0 +1,110 @@
+---
+title: Web Scraping com Python
+author: ''
+date: '2022-07-22'
+slug: []
+excerpt: "Neste post eu apresento uma maneira de extrair tabelas de site no Python"
+categories:
+  - Python
+  - Web Scraping
+layout: single 
+---
+
+
+```r
+import pandas as pd
+import numpy as np
+import requests
+from bs4 import BeautifulSoup
+from lxml import etree
+
+url = requests.get('https://webscraper.io/test-sites/e-commerce/allinone/computers/laptops')
+
+print(url.status_code)
+```
+
+
+```r
+print(url.content)
+```
+
+
+```r
+soup = BeautifulSoup(url.content,'html.parser')
+
+print(soup)
+```
+
+
+```r
+titulos = soup.find_all('a', attrs={'class':'title'})
+
+titulos = [i.text for i in titulos]
+print(titulos)
+```
+
+
+
+```r
+descricao = soup.find_all('p', attrs={'class':'description'})
+
+descricao = [i.text for i in descricao]
+print(descricao)
+```
+
+
+```r
+site = soup.find_all('a', attrs={'href':'/html/body/div[1]/div[3]/div/div[2]/div/div[2]/div/div[1]/h4[2]/a'})
+
+site = [i.text for i in site]
+print(site)
+```
+
+
+```r
+reviews = soup.find_all('p', attrs={'class':'pull-right'})
+
+reviews = [i.text for i in reviews]
+print(reviews)
+```
+
+
+```r
+precos = soup.find_all('h4', attrs={'class':'pull-right price'})
+
+precos = [i.text for i in precos]
+print(precos)
+```
+
+
+```r
+path = etree.HTML(str(soup))
+site = path.xpath("//div[@class='caption']//h4[2]//a")
+
+sites = [i.get('href') for i in site]
+```
+
+
+```r
+print(sites)
+```
+
+
+```r
+avaliacoes = etree.HTML(str(soup))
+avaliacoes = path.xpath("//div[@class='ratings']//p[2]")
+
+avaliacoes = [i.get('data-rating') for i in avaliacoes]
+print(avaliacoes)
+```
+
+
+```r
+df = pd.DataFrame({"Título":titulos, "Descrição":descricao,"Site":sites,"Reviews":reviews,"Avaliação":avaliacoes})
+```
+
+
+```r
+df.head()
+```
+

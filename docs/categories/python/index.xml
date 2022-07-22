@@ -6,7 +6,25 @@
     <description>Recent content in Python on Flavia de Jesus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flaviajesussantos.github.io/MeuBlog/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flaviajesussantos.github.io/MeuBlog/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Scraping com Python</title>
+      <link>https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-22-web-scraping-com-python/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-22-web-scraping-com-python/</guid>
+      <description>import pandas as pd import numpy as np import requests from bs4 import BeautifulSoup from lxml import etree  url = requests.get(&amp;#39;https://webscraper.io/test-sites/e-commerce/allinone/computers/laptops&amp;#39;)  print(url.status_code) print(url.content) soup = BeautifulSoup(url.content,&amp;#39;html.parser&amp;#39;)  print(soup) titulos = soup.find_all(&amp;#39;a&amp;#39;, attrs={&amp;#39;class&amp;#39;:&amp;#39;title&amp;#39;})  titulos = [i.text for i in titulos] print(titulos) descricao = soup.find_all(&amp;#39;p&amp;#39;, attrs={&amp;#39;class&amp;#39;:&amp;#39;description&amp;#39;})  descricao = [i.text for i in descricao] print(descricao) site = soup.find_all(&amp;#39;a&amp;#39;, attrs={&amp;#39;href&amp;#39;:&amp;#39;/html/body/div[1]/div[3]/div/div[2]/div/div[2]/div/div[1]/h4[2]/a&amp;#39;})  site = [i.text for i in site] print(site) reviews = soup.</description>
+    </item>
+    
+    <item>
+      <title>Usando Web Scraping para extrair tabelas</title>
+      <link>https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-17-usando-web-scraping-para-extrair-tabelas/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-17-usando-web-scraping-para-extrair-tabelas/</guid>
+      <description>import requests from bs4 import BeautifulSoup import pandas as pd  url = &amp;#39;https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_do_Esp%C3%ADrito_Santo_por_popula%C3%A7%C3%A3o&amp;#39;  site = requests.get(url)  print(site)   soup = BeautifulSoup(site.text, &amp;#39;html.parser&amp;#39;)  print(soup.prettify())   tabela = soup.find_all(&amp;#39;table&amp;#39;, {&amp;#39;class&amp;#39;: &amp;#39;wikitable&amp;#39;})  print(tabela)   tabela = tabela[0]  titulos = [i.text for i in tabela.find_all(&amp;#39;th&amp;#39;)]  print(titulos)  titulos[2] = &amp;#39;População&amp;#39;  # Criando o dataframe df = pd.DataFrame(columns = titulos)  df   print(tabela.</description>
+    </item>
+    
     <item>
       <title>Utilizando mapas de calor no Python para comparação de genomas</title>
       <link>https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-01-mapas-de-calor-no-python/</link>

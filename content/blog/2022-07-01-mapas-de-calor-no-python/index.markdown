@@ -7,6 +7,7 @@ excerpt: "Neste estudo de caso, queremos avaliar se estruturas com funções par
 categories:
   - Python
 tags: []
+layout: single # single or single-sidebar
 ---
 
 ### `Comparação de genomas`
@@ -141,7 +142,9 @@ plt.title("Influenza A")
 _ = plt.colorbar()
 ```
 
+
 ![Influenza](img/influenza.png)
+
 
 
 
