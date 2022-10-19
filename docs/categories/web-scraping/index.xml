@@ -22,7 +22,7 @@
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-17-usando-web-scraping-para-extrair-tabelas/</guid>
-      <description>import requests from bs4 import BeautifulSoup import pandas as pd  url = &amp;#39;https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_do_Esp%C3%ADrito_Santo_por_popula%C3%A7%C3%A3o&amp;#39;  site = requests.get(url)  print(site)   soup = BeautifulSoup(site.text, &amp;#39;html.parser&amp;#39;)  print(soup.prettify())   tabela = soup.find_all(&amp;#39;table&amp;#39;, {&amp;#39;class&amp;#39;: &amp;#39;wikitable&amp;#39;})  print(tabela)   tabela = tabela[0]  titulos = [i.text for i in tabela.find_all(&amp;#39;th&amp;#39;)]  print(titulos)  titulos[2] = &amp;#39;População&amp;#39;  # Criando o dataframe df = pd.DataFrame(columns = titulos)  df   print(tabela.</description>
+      <description>import requests from bs4 import BeautifulSoup import pandas as pd  url = &amp;#39;https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_do_Esp%C3% ADrito_Santo_por_popula%C3%A7%C3%A3o&amp;#39;  site = requests.get(url)  print(site)   soup = BeautifulSoup(site.text, &amp;#39;html.parser&amp;#39;)  print(soup.prettify())   tabela = soup.find_all(&amp;#39;table&amp;#39;, {&amp;#39;class&amp;#39;: &amp;#39;wikitable&amp;#39;})  print(tabela)   tabela = tabela[0]  titulos = [i.text for i in tabela.find_all(&amp;#39;th&amp;#39;)]  print(titulos)  titulos[2] = &amp;#39;População&amp;#39;  # Criando o dataframe df = pd.DataFrame(columns = titulos)  df   print(tabela.</description>
     </item>
     
   </channel>

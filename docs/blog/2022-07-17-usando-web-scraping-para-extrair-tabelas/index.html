@@ -21,12 +21,12 @@
   
     
   
-<meta name="description" content="Neste post eu apresento uma maneira de extrair tabelas de site no Python">
+<meta name="description" content="Extraindo a tabela das populações dos municipios do Espírito Santo.">
 
 
 <meta property="og:site_name" content="Flavia de Jesus">
 <meta property="og:title" content="Usando Web Scraping para extrair tabelas | Flavia de Jesus">
-<meta property="og:description" content="Neste post eu apresento uma maneira de extrair tabelas de site no Python" />
+<meta property="og:description" content="Extraindo a tabela das populações dos municipios do Espírito Santo." />
 <meta property="og:type" content="page" />
 <meta property="og:url" content="https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-17-usando-web-scraping-para-extrair-tabelas/" />
 <meta property="og:locale" content="en">
@@ -35,15 +35,15 @@
 
 
     
-        <meta property="og:image" content="https://flaviajesussantos.github.io/MeuBlog/blog/sidebar-listing.jpg" >
+        <meta property="og:image" content="https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-17-usando-web-scraping-para-extrair-tabelas/featured.jpg" >
         <meta property="twitter:card" content="summary_large_image">
-        <meta name="twitter:image" content="https://flaviajesussantos.github.io/MeuBlog/blog/sidebar-listing.jpg" >
+        <meta name="twitter:image" content="https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-17-usando-web-scraping-para-extrair-tabelas/featured.jpg" >
     
     
   <meta itemprop="name" content="Usando Web Scraping para extrair tabelas">
-<meta itemprop="description" content="import requests from bs4 import BeautifulSoup import pandas as pd  url = &#39;https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_do_Esp%C3%ADrito_Santo_por_popula%C3%A7%C3%A3o&#39;  site = requests.get(url)  print(site)   soup = BeautifulSoup(site.text, &#39;html.parser&#39;)  print(soup.prettify())   tabela = soup.find_all(&#39;table&#39;, {&#39;class&#39;: &#39;wikitable&#39;})  print(tabela)   tabela = tabela[0]  titulos = [i.text for i in tabela.find_all(&#39;th&#39;)]  print(titulos)  titulos[2] = &#39;População&#39;  # Criando o dataframe df = pd.DataFrame(columns = titulos)  df   print(tabela."><meta itemprop="datePublished" content="2022-07-17T00:00:00+00:00" />
+<meta itemprop="description" content="import requests from bs4 import BeautifulSoup import pandas as pd  url = &#39;https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_do_Esp%C3% ADrito_Santo_por_popula%C3%A7%C3%A3o&#39;  site = requests.get(url)  print(site)   soup = BeautifulSoup(site.text, &#39;html.parser&#39;)  print(soup.prettify())   tabela = soup.find_all(&#39;table&#39;, {&#39;class&#39;: &#39;wikitable&#39;})  print(tabela)   tabela = tabela[0]  titulos = [i.text for i in tabela.find_all(&#39;th&#39;)]  print(titulos)  titulos[2] = &#39;População&#39;  # Criando o dataframe df = pd.DataFrame(columns = titulos)  df   print(tabela."><meta itemprop="datePublished" content="2022-07-17T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-07-17T00:00:00+00:00" />
-<meta itemprop="wordCount" content="195">
+<meta itemprop="wordCount" content="197"><meta itemprop="image" content="https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-17-usando-web-scraping-para-extrair-tabelas/featured.jpg">
 <meta itemprop="keywords" content="" />
   
   
@@ -52,7 +52,7 @@
   <link rel="icon" href="" type="image/x-icon">
   
   
-  <link rel="stylesheet" href="/MeuBlog/style.main.min.3dc075033f6f253a8384febfb791b5507b5b3cbbf519f4228b2126e7a79fbadd.css" integrity="sha256-PcB1Az9vJTqDhP6/t5G1UHtbPLv1GfQiiyEm56efut0=" media="screen">
+  <link rel="stylesheet" href="/MeuBlog/style.main.min.c41cdbc62f0c1b8c80cb57c2337346ba1a66ee3167035bc3ee56d078cbb67da6.css" integrity="sha256-xBzbxi8MG4yAy1fCM3NGuhpm7jFnA1vD7lbQeMu2faY=" media="screen">
   
   
   <script src="/MeuBlog/panelset.min.8f4cba0107356728f266d94a12a4d18ef504eda8a9a284cda73675bae7884a68.js" type="text/javascript"></script>
@@ -65,7 +65,7 @@
 <header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
   <nav class="site-nav db dt-l w-100" role="navigation">
     <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://flaviajesussantos.github.io/MeuBlog/" title="Home">
-      <span class="f4 fw7">Flavia de Jesus</span>
+      <img src="/MeuBlog/img/foto.jpeg" class="dib db-l h2 w-auto" alt="Flavia de Jesus">
     </a>
     <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
       
@@ -106,7 +106,8 @@
 </span></span><span style="display:flex;"><span>from bs4 import BeautifulSoup
 </span></span><span style="display:flex;"><span>import pandas as pd
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>url <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_do_Esp%C3%ADrito_Santo_por_popula%C3%A7%C3%A3o&#39;</span>
+</span></span><span style="display:flex;"><span>url <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_do_Esp%C3%
+</span></span></span><span style="display:flex;"><span><span style="color:#d14">ADrito_Santo_por_popula%C3%A7%C3%A3o&#39;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>site <span style="color:#000;font-weight:bold">=</span> <span style="color:#900;font-weight:bold">requests.get</span>(url)
 </span></span><span style="display:flex;"><span>
@@ -162,7 +163,8 @@
 </span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">df.head</span>(<span style="color:#099">20</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">df.to_csv</span>(<span style="color:#d14">&#39;dados.csv&#39;</span>, index <span style="color:#000;font-weight:bold">=</span> False)import requests
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">df.to_csv</span>(<span style="color:#d14">&#39;dados.csv&#39;</span>, index <span style="color:#000;font-weight:bold">=</span> False)
+</span></span><span style="display:flex;"><span>import requests
 </span></span><span style="display:flex;"><span>from bs4 import BeautifulSoup
 </span></span><span style="display:flex;"><span>import pandas as pd
 </span></span><span style="display:flex;"><span>
@@ -232,7 +234,7 @@
   </dl>
   <dl class="f6 lh-copy">
     <dt class="fw7">Tempo de leitura:</dt>
-    <dd class="fw5 ml0">1 minutos de leitura, 195 palavras</dd>
+    <dd class="fw5 ml0">1 minutos de leitura, 197 palavras</dd>
   </dl>
   
   <dl class="f6 lh-copy">
