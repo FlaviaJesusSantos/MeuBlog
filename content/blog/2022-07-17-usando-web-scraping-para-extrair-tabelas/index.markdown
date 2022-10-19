@@ -3,7 +3,7 @@ title: Usando Web Scraping para extrair tabelas
 author: ''
 date: '2022-07-17'
 slug: []
-excerpt: "Neste post eu apresento uma maneira de extrair tabelas de site no Python"
+excerpt: "Extraindo a tabela das populações dos municipios do Espírito Santo."
 categories:
   - Python
   - Web Scraping
@@ -16,7 +16,8 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-url = 'https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_do_Esp%C3%ADrito_Santo_por_popula%C3%A7%C3%A3o'
+url = 'https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_do_Esp%C3%
+ADrito_Santo_por_popula%C3%A7%C3%A3o'
 
 site = requests.get(url)
 
@@ -72,7 +73,8 @@ df = df.replace({r'[\n\[2\]\.\s]':''}, regex=True)
 df.head(20)
 
 
-df.to_csv('dados.csv', index = False)import requests
+df.to_csv('dados.csv', index = False)
+import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 

@@ -18,7 +18,7 @@ show_post_date: true
 show_post_thumbnail: true
 sidebar:
   author: 
-  description: ""
+  description: "Esta é a minha página de postagens, onde eu compartilho tutoriais, textos e pensamentos!"
   show_sidebar_adunit: true
   text_link_label: 
   text_link_url: /index.xml
