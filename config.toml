@@ -33,7 +33,7 @@ publishDir = "docs/"
   orgLocal = ""
   description = ""
   favicon = ""
-  logo = "/img/foto.jpeg"
+  logo = ""
   mainSections = ["blog", "project"]
   navallcaps = true
   # show/hide social icons in site header & footer
