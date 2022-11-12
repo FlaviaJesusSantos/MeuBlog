@@ -1,7 +1,7 @@
 ---
 author: 
 cascade:
-  author: 
+  author: Flavia de Jesus
   show_author_byline: true
   show_comments: true
   show_post_date: true
@@ -13,11 +13,11 @@ description: "This is a fully featured blog that supports categories, \ntags, se
   and pagination.\n"
 layout: list-sidebar
 show_author_byline: true
-show_button_links: false
+show_button_links: true
 show_post_date: true
 show_post_thumbnail: true
 sidebar:
-  author: 
+  author: Flavia de Jesus
   description: "Esta é a minha página de postagens, onde eu compartilho tutoriais e alguns textos!"
   show_sidebar_adunit: true
   text_link_label: 

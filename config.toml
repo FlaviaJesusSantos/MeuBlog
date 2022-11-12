@@ -32,8 +32,8 @@ publishDir = "docs/"
   orgName = "Flavia de Jesus"
   orgLocal = ""
   description = ""
-  favicon = ""
-  logo = ""
+  favicon = "/img/fla3.png"
+  logo = "/img/fla3.png"
   mainSections = ["blog", "project"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -49,7 +49,7 @@ publishDir = "docs/"
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "peach"
+  theme = "grayscale"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
