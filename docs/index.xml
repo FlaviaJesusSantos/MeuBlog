@@ -40,7 +40,7 @@
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://flaviajesussantos.github.io/MeuBlog/blog/2022-07-01-mapas-de-calor-no-python/</guid>
-      <description>Comparação de genomas     Pretende-se comparar duas sequências de DNA: SARS-CoV-2 identificado na cidade de Wuhan (China) e o Virus da Influenza A identificado na California (US).
+      <description>Comparação de genomasPretende-se comparar duas sequências de DNA: SARS-CoV-2 identificado na cidade de Wuhan (China) e o Virus da Influenza A identificado na California (US).
 O DNA é uma molécula presente em todos os seres vivos, que é responsável por armazenar as caracterı́sticas hereditárias. Ela é composta por sequências de nucleot́ideos, que podem ser de quatro tipos: Adenina (A), Timina (T), Citosina (C) ou Guanina (G).</description>
     </item>
     
@@ -71,7 +71,7 @@ Para entender em qual contexto ocorrem mais acidentes, algumas perguntas serão 
       
       <guid>https://flaviajesussantos.github.io/MeuBlog/license/</guid>
       <description>My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.
-  </description>
+</description>
     </item>
     
   </channel>
