@@ -32,8 +32,8 @@ publishDir = "docs/"
   orgName = "Flavia de Jesus"
   orgLocal = ""
   description = ""
-  favicon = "/img/fla3.png"
-  logo = "/img/fla3.png"
+  favicon = "/img/ESF_logo1_alt_nobg.png"
+  logo = "/img/ESF_logo1_alt_nobg.png"
   mainSections = ["blog", "project"]
   navallcaps = true
   # show/hide social icons in site header & footer
